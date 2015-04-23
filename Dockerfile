@@ -4,12 +4,12 @@
 # Docker Hub - http://hub.docker.com/u/dalekurt/activator
 # Twitter - http://www.twitter.com/dalekurt
 
-FROM dalekurt/java7
+FROM aviata/java7
 
 # Basic environment setup
 RUN apt-get update; apt-get install -y unzip wget
 
-MAINTAINER Dale-Kurt Murray "dalekurt.murray@gmail.com"
+MAINTAINER jmarsh.ext "jmarsh.ext@aviatainc.com"
 
 ENV ACTIVATOR_VERSION 1.3.2
 
